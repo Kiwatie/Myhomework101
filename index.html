@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head><h1 align ="center">Chayangkoon 5/10 1</h1>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+    }
+    .column{
+        float: left;
+        padding: 10px;
+    }
+    .column.side{
+        width: 25%;
+    }
+    .column.middle{
+        width: 50%;
+    }
+    .row::after {
+        contain: "";
+        display: table;
+        clear: both;
+    }
+    @media screen and (max-width: 6000px){
+        .column.side, .column.middle{
+            width: 100%;
+        }
+    }
+</style>
+<body>
+    <div class="row">
+        <div class="column side">
+            <h1><p>For u</p></h1>
+            <source><video controls autoplay loop src="assets/videos/Rick Rolled (Short Version).mp4"></video>
+            <h2><p>For u</p></h2>
+            <source><audio controls autoplay loop src="assets/sounds/nevergonnagiveyouup.mp3"></audio>
+        </div>
+        <div class="column middle">
+            <table>
+                <caption>ตารางเรียน ชั้น ม.5/10</caption>
+                <tr>
+                    <th>คาบที่</th>
+                    <th>0</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                    <th>8</th>
+                    <th>9</th>
+                    <th>10</th>
+                    <th>11</th>
+                </tr>
+                <tr>
+                    <th>เวลา</th>
+                    <th>7.30-8.20</th>
+                    <th>8.20-9.10</th>
+                    <th>9.10-10.00</th>
+                    <th>10.00-10.50</th>
+                    <th>10.50-11.40</th>
+                    <th>11.40-12.30</th>
+                    <th>12.30-13.20</th>
+                    <th>13.20-14.10</th>
+                    <th>14.10-15.00</th>
+                    <th>15.00-15.50</th>
+                    <th>15.50-16.40</th>
+                    <th>16.40-17.30</th>
+                </tr>
+                <tr>
+                    <th>จันทร์</th>
+                    <td>โฮมรูม</td>
+                    <td>ศ32101-331</td>
+                    <td>พ32101-สนาม</td>
+                    <td>ค32201-236</td>
+                    <td>อ32211-713</td>
+                    <td>ท32101-222</td>
+                    <td>พักเที่ยง</td>
+                    <td>ว32203-942</td>
+                    <td>อ32101-335</td>
+                    <td>จิตอาสา</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>อังคาร</th>
+                    <td>โฮมรูม</td>
+                    <td>อ32101-435</td>
+                    <td>ก32101-114</td>
+                    <td>ส32901-432</td>
+                    <td>ว32223-921</td>
+                    <td>ว32223-921</td>
+                    <td>พักเที่ยง</td>
+                    <td>ว32243-931</td>
+                    <td>ว32243-931</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>พุธ</th>
+                    <td>โฮมรูม</td>
+                    <td>ว32203-941</td>
+                    <td>ว32203-941</td>
+                    <td>ว32101-</td>
+                    <td>ค32101-233</td>
+                    <td>ค32201-236</td>
+                    <td>พักเที่ยง</td>
+                    <td>I30201-212</td>
+                    <td>I30201-212</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>พฤหัสบดี</th>
+                    <td>โฮมรูม</td>
+                    <td>กิจกรรมรร.วิถีพุธ</td>
+                    <td>ส32101-432</td>
+                    <td>อ32211-436</td>
+                    <td>ว32223-921</td>
+                    <td>ส่งเสริมวิชาการ</td>
+                    <td>พักเที่ยง</td>
+                    <td>เสรีภาษา</td>
+                    <td>ค32201-236</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>ศุกร์</th>
+                    <td>โฮมรูม</td>
+                    <td>ว30271-341</td>
+                    <td>ว30271-341</td>
+                    <td>ว32203-942</td>
+                    <td>ค32201-236</td>
+                    <td>ค32101-233</td>
+                    <td>พักเที่ยง</td>
+                    <td>ท32101-222</td>
+                    <td>อ32211-246</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div class="column side">
+            <form>
+                <label>ชื่อ</label><br>
+                <input type="text"><br>
+                <label>นามสกุล</label><br>
+                <input type="text"><br>
+                <label>กำลังศึกษาอยู่ระดับชั้นมัธยมศึกษาปีที่</label><br>
+                <input type="text"><br>
+                <label>เพศ</label><br>
+                <input type="text"><br>
+                <label>Username</label><br>
+                <input type="text"><br>
+                <label>Password</label><br>
+                <input type="text"><br>
+                <label>กดส่ง</label><br>
+                <input type="submit">
+            </form>
+        </div>
+        <div class="footer">
+            <h3>ผู้จัดทำ</h3>
+            <a href="https://web.facebook.com/Mh01k/" target="_blank" rel="noopener noreferrer"><img src="assets/img/OIP.jpg"></a>
+        </div>
+    </div>
+</body>
+</html>
